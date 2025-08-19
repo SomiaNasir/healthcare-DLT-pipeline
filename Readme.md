@@ -30,7 +30,9 @@ Now we have a table called processed_patient_data in silver layer which joins th
 
 In gold layer, we are making two of the tables based on different aggregations. Both are materialized views as it is needed to perform the aggregation on whole dataset.  
 
-<img width="890" height="979" alt="image" src="https://github.com/user-attachments/assets/85f221f7-94af-4124-b990-1a92bec21541" />  
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/85f221f7-94af-4124-b990-1a92bec21541" />  
+
+After running the feed raw notebook, we can set up the dlt pipeline and attach the healthcare_dlt_pipeline notebook with it. We can then validate the lineage in development mode and get the above graph.
 
 
 
