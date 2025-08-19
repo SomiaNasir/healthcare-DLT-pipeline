@@ -32,7 +32,19 @@ In gold layer, we are making two of the tables based on different aggregations. 
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/85f221f7-94af-4124-b990-1a92bec21541" />  
 
-After running the feed raw notebook, we can set up the dlt pipeline and attach the healthcare_dlt_pipeline notebook with it. We can then validate the lineage in development mode and get the above graph.
+After running the feed raw notebook, we can set up the dlt pipeline and attach the healthcare_dlt_pipeline notebook with it. We can then validate the lineage in development mode and get the above graph. Afterwards, we can start the pipeline.  
+
+<img width="600" height="390" alt="image" src="https://github.com/user-attachments/assets/0b78f520-bdca-483b-9b6f-c00ac686b34d" />  
+
+Running the pipeline made the tables in catalog.  
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3645296d-9e92-425e-bde0-eafa232e5cf8" />  
+
+The following query shows the result for one of the gold tables.  
+
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/19edd536-6b76-4830-826a-6e44bac0eb45" />  
+
+Now we can append the second file into raw daily patients table and trigger the pipeline again to see this table getting updated.
 
 
 
