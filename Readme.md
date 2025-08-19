@@ -44,7 +44,10 @@ The following query shows the result for one of the gold tables.
 
 <img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/19edd536-6b76-4830-826a-6e44bac0eb45" />  
 
-Now we can append the second file into raw daily patients table and trigger the pipeline again to see this table getting updated.
+Now we can append the second file into raw daily patients table and trigger the pipeline again to see this table getting updated.  
+
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/ce53fa89-065d-4438-8757-25ad38234049" />
+
 
 
 
